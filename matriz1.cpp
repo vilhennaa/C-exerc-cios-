@@ -30,8 +30,8 @@ void ex1(){
     }
 }
 
-//Somar duas matrizes A e B, de 7 linhas e 8 colunas cada uma, gerando uma matriz C, tambÈm 7 x 8,
-//onde cada elemento de C È a soma dos 2 elementos correspondentes em A e B.
+//Somar duas matrizes A e B, de 7 linhas e 8 colunas cada uma, gerando uma matriz C, tamb√©m 7 x 8,
+//onde cada elemento de C √© a soma dos 2 elementos correspondentes em A e B.
 
 void ex2(){
     int matA[7][8], matB[7][8], i, j;
@@ -83,8 +83,8 @@ void ex3(){
     }
 }
 
-// Dada uma matriz M de 6 x 9, deve-se totaliz·-la na vertical gerando um vetor V de 9 elementos.
-// Imprimir o vetor e, a seguir, encontrar e imprimir a mÈdia dos 9 valores.
+// Dada uma matriz M de 6 x 9, deve-se totaliz√°-la na vertical gerando um vetor V de 9 elementos.
+// Imprimir o vetor e, a seguir, encontrar e imprimir a m√©dia dos 9 valores.
 
 void ex4(){
     int  i, j; 
@@ -119,15 +119,15 @@ void ex4(){
 //imprimindo o total ao final.
 
 void ex5(){
-	int mat[3][3], i, j, t=0;
+	int mat[10][10], i, j, t=0;
 	
 	printf("elementos:\n");
-    for(i=0;i<3;i++){
-        for(j=0;j<3;j++){
+    for(i=0;i<10;i++){
+        for(j=0;j<10;j++){
             scanf("%",&mat[i][j]);
         }
     }
-	for(i=0;i<3;i++)
+	for(i=0;i<10;i++)
 		t += mat[i][i];
 	printf("total: %d",t);
 	
